@@ -1,0 +1,116 @@
+@import url('./fonts/Aquire-BW0ox.ttf'); 
+@import url('./fonts/Aquatico-Regular.ttf'); 
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    background: linear-gradient(#94A673,#e0e7b2 ,#ced5aa);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+   }
+h2{
+    text-align: center;
+    font-family: Aquatico;
+    
+    
+}
+h3{
+    font-family: Aquatico;
+    text-align: center;
+}
+
+
+.main {
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 9px;
+    width: 70%;
+    max-width: 1200px;
+    min-width: 200px;
+    height: 350px;
+    box-shadow: #1b6c3a57 0px 7px 29px 0px;
+}
+
+
+.forms {
+    margin: auto;
+    
+}
+
+
+.forms #form-search  {
+    margin: auto;
+    flex-direction: column;
+    width: 500px;
+    height: 100px;
+    display: contents;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.forms #form-search #criptomonedas{
+    margin-top: 20px;
+    width: 40%;
+    min-width: 100px;
+    height: 25px;
+    border: solid 0px #ada2a2;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+.forms #form-search #moneda{
+    margin-top: 20px;
+    width: 40%;
+    min-width: 100px;
+    height: 25px;
+    border: solid 0px #ada2a2;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+input[type="submit"] {
+    margin: 10px auto 0px;
+    width: 50%;
+    color: rgb(160, 144, 95);
+    background-color: #00a478;
+    border: solid 0px #ada2a2;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    color: #FFF;
+    height: 37px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type="submit"]:hover {
+    color: #00a478ca;
+    background-color: #fff;
+    border: solid 2px #00a478ca;
+}
+.error {
+    color: rgb(182, 5, 5);
+}
+.display-info p span{
+    font-weight: 1000;
+}
+.display-info .main-price{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+.container{
+    margin: auto;
+    margin-top: 1px;
+    width: 90%;
+    max-width: 1200px;
+    padding: 40px 0;
+    
+    
+}
